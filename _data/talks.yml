@@ -1,0 +1,84 @@
+conferences:
+  - date: "2025.06"
+    type: Talk
+    title: "A measurement of the Solar Boron-8 Neutrino Fog with XENONnT"
+    url: https://indico.cern.ch/event/1458241/contributions/6477846/
+    event: "Magnificent CEvNS 2025"
+    event_url: https://indico.cern.ch/event/1458241/
+    location: "Rio de Janeiro, Brazil"
+
+  - date: "2025.06"
+    type: Talk
+    title: "Data processing in XENONnT dark matter project"
+    url: https://agenda.hep.wisc.edu/event/2297/contributions/34438/
+    event: "Throughput Computing 2025"
+    event_url: https://agenda.hep.wisc.edu/event/2297/
+    location: "Madison, Wisconsin (online)"
+
+  - date: "2024.10"
+    type: Talk
+    title: "First Measurement of Solar <sup>8</sup>B Neutrinos via Coherent Elastic Neutrino-Nucleus Scattering with XENONnT"
+    url: https://indico.cern.ch/event/1335188/contributions/6177631/
+    event: 'Blois 2024: 35th Rencontres de Blois on "Particle Physics and Cosmology"'
+    event_url: https://indico.cern.ch/event/1335188/
+    location: "Blois, France"
+
+  - date: "2024.07"
+    type: Talk
+    title: "Search for Coherent Elastic Scattering of Solar <sup>8</sup>B Neutrinos in the XENONnT"
+    url: https://indico.ihep.ac.cn/event/21331/contributions/161652/
+    event: "The 14th Conference of High Energy Physics Branch of Chinese Physical Society"
+    event_url: https://indico.ihep.ac.cn/event/21331/
+    location: "Shandong University, China"
+
+  - date: "2021.08"
+    type: Poster
+    title: "Accurate and Robust PMT Waveform Analysis"
+    url: https://indico.ihep.ac.cn/event/10906/session/9/contribution/172
+    event: "The 13th Conference of High Energy Physics Branch of Chinese Physical Society"
+    event_url: https://indico.ihep.ac.cn/event/10906/
+    location: "Shandong University, China (online)"
+
+  - date: "2021.06"
+    type: Poster
+    title: "Optimized PMT Waveform Analysis"
+    url: https://indico.fnal.gov/event/44492/contributions/214287/
+    event: "The 28th International Workshop on Weak Interactions and Neutrinos (WIN2021)"
+    event_url: https://indico.fnal.gov/event/44492/overview/
+    location: "The University of Minnesota, US (online)"
+
+  - date: "2020.08"
+    type: Talk
+    title: "PMT waveform analysis in neutrino experiments"
+    url: https://indico.physics.lbl.gov/event/1192/contributions/4960/
+    event: "Dark-matter and Neutrino Computation Explored (DANCE) Machine Learning Workshop 2020"
+    event_url: https://indico.physics.lbl.gov/event/1192/overview/
+    location: "Lawrence Berkeley National Laboratory, US (online)"
+
+seminars:
+  - date: "2026.03"
+    title: "Latest solar neutrino and light WIMP search with XENONnT"
+    location: "Washington University in St. Louis, St. Louis"
+
+  - date: "2025.12"
+    title: "Latest solar neutrino and WIMP search results from the XENONnT experiment"
+    location: "Kavli Institute for the Physics and Mathematics of the Universe, Kashiwa, Japan"
+
+  - date: "2025.12"
+    title: "Latest solar neutrino and WIMP search results from the XENONnT experiment"
+    location: "Institute for Basic Science, Daejeon, Korea"
+
+  - date: "2025.04"
+    title: "Venturing into the Neutrino Fog with XENONnT"
+    url: https://indico.slac.stanford.edu/event/9699/
+    location: "SLAC National Accelerator Laboratory, California"
+
+  - date: "2024.09"
+    title: "A measurement of solar neutrino with XENONnT experiment"
+    url: https://indico.cern.ch/event/1459520/
+    location: "Stony Brook University, New York"
+
+  - date: "2024.09"
+    title: "First Measurement of Solar <sup>8</sup>B Neutrinos via Coherent Elastic Neutrino-Nucleus Scattering with XENONnT"
+    url: https://indico.bnl.gov/event/24531/
+    location: "Brookhaven National Laboratory, New York"
