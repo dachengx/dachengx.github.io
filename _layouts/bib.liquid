@@ -189,9 +189,30 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% if entry.role %}
+        <a class="btn btn-sm z-depth-0 font-weight-bold" style="text-transform: none; background-color: #2ecc71; color: white;" role="button">
+          {{- entry.role -}}
+        </a>
+      {% endif %}
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
+        </a>
+      {% endif %}
+      {% if entry.distinction %}
+        <a class="btn btn-sm z-depth-0 font-weight-bold" style="text-transform: none; background-color: #e74c3c; color: white;" role="button">
+          {{- entry.distinction -}}
+        </a>
+      {% endif %}
+      {% if entry.highlight %}
+        <a
+          href="{{ entry.highlight }}"
+          class="btn btn-sm z-depth-0 font-weight-bold"
+          style="text-transform: none; background-color: #2980b9; color: white;"
+          target="_blank"
+          role="button"
+        >
+          {%- if entry.highlight_name %}{{ entry.highlight_name }}{% else %}Highlight{% endif -%}
         </a>
       {% endif %}
       {% if entry.abstract %}
