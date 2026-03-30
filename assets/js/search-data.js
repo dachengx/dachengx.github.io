@@ -405,6 +405,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "explorations-example-exploration",
+          title: 'Example Exploration',
+          description: "Short description of what this exploration is about.",
+          section: "Explorations",handler: () => {
+              window.location.href = "/explorations/example/";
             },},{id: "news-started-to-work-as-an-analysis-tools-team-leader-in-xenonnt",
           title: 'Started to work as an Analysis Tools Team Leader in XENONnT.',
           description: "",
