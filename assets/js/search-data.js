@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "Selected recent talks.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -397,8 +404,8 @@ ninja.data = [{
           section: "News",},{id: "news-first-indication-of-solar-b-neutrinos-via-coherent-elastic-neutrino-nucleus-scattering-with-xenonnt-is-published-in-prl-as-editors-suggestion",
           title: '“First Indication of Solar ⁸B Neutrinos via Coherent Elastic Neutrino-Nucleus Scattering with XENONnT”...',
           description: "",
-          section: "News",},{id: "news-got-promoted-from-analysis-tools-team-leader-to-analysis-coordinator-of-xenonnt",
-          title: 'Got promoted from Analysis Tools Team Leader to Analysis Coordinator of XENONnT.',
+          section: "News",},{id: "news-got-promoted-from-analysis-tools-team-leader-to-an-analysis-coordinator-of-xenonnt",
+          title: 'Got promoted from Analysis Tools Team Leader to an Analysis Coordinator of XENONnT....',
           description: "",
           section: "News",},{id: "news-completed-term-as-xenonnt-analysis-coordinator",
           title: 'Completed term as XENONnT Analysis Coordinator.',
