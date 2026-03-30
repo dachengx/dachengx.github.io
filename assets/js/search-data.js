@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/talks/";
           },
+        },{id: "nav-explorations",
+          title: "Explorations",
+          description: "A collection of exploratory projects beyond my primary research. These efforts reflect my curiosity about a wide range of physical phenomena, computational techniques, and experimental ideas, often pursued independently or for outreach.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/explorations/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
