@@ -58,6 +58,12 @@ layout: default
     </p>
   </header>
 
+  {% if page.description %}
+    <p class="post-description">
+      <em>{{ page.description }}</em>
+    </p>
+  {% endif %}
+
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
