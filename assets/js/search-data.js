@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-explorations",
           title: "Explorations",
-          description: "A collection of exploratory projects beyond my primary research. These efforts reflect my curiosity about a wide range of physical phenomena, computational techniques, and experimental ideas, often pursued independently or for outreach.",
+          description: "A collection of exploratory projects beyond my primary research. These efforts reflect my curiosity about a wide range of physics, engineering, and computation.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/explorations/";
@@ -405,11 +405,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "explorations-example-exploration",
-          title: 'Example Exploration',
-          description: "Short description of what this exploration is about.",
+            },},{id: "explorations-uncertainties-in-deep-inelastic-scattering-for-gev-scale-neutrinos-experiments",
+          title: 'Uncertainties in Deep Inelastic Scattering for GeV-Scale Neutrinos Experiments',
+          description: "How the sensitivity of GeV-scale neutrino experiments like  the Deep Underground Neutrino Experiment (DUNE)  is affected by the large uncertainty of deep inelastic scattering between neutrino and argon nucleus.",
           section: "Explorations",handler: () => {
-              window.location.href = "/explorations/example/";
+              window.location.href = "/explorations/gev_neutrino_dis/";
+            },},{id: "explorations-when-will-photonic-quantum-supercomputers-go-underground",
+          title: 'When Will Photonic Quantum Supercomputers Go Underground?',
+          description: "A comparison between photonic quantum computing and established platforms such as trapped-ion  and superconducting systems. Cosmic-ray-induced errors can lead to qubit state flips,  motivating the deployment of quantum processors in deep-underground environments.",
+          section: "Explorations",handler: () => {
+              window.location.href = "/explorations/underground_quantum_computer/";
+            },},{id: "explorations-real-time-ray-tracing-rendering-accretion-disk-of-a-schwarzschild-black-hole",
+          title: 'Real-time ray tracing rendering accretion disk of a Schwarzschild black hole',
+          description: "Real-time ray tracing rendering accretion disk of a Schwarzschild black hole  with relativistic Doppler effect and intensity boosting effect, implemented in CUDA and OpenGL (C++).",
+          section: "Explorations",handler: () => {
+              window.location.href = "/explorations/geodesic_raytracer/";
             },},{id: "news-started-to-work-as-an-analysis-tools-team-leader-in-xenonnt",
           title: 'Started to work as an Analysis Tools Team Leader in XENONnT.',
           description: "",
